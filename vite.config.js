@@ -7,7 +7,7 @@ export default defineConfig({
     proxy:{
       '/api':{
         target:"https://shelterseeker-backend.vercel.app",
-        secure:false,
+        secure:true,
       },
     },
   },
